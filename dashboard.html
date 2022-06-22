@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Dashbord</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://pink7.thedigitalkranti.com/front-end/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body class="Dashboard-page hbc">
+        <!-- -------------Start-banner-section-here-------------- -->
+         <!-- -------------Start-banner-section-here-------------- -->
+         <header class="header-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div class="header-left-box common-flex">
+                            <div class="social-media-icon">
+                                <span>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </span>
+                                <span>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </span>
+                                <span>
+                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </span>
+                                <span>
+                                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </span>
+                            </div>
+
+                            <div class="phone-number-box phone-box">
+                                <a href="#">
+                                    <p class="mb-0">
+                                        <span><i class="fa fa-phone mr-1" aria-hidden="true"></i></span>+91-8287308878
+                                    </p>
+                                </a>
+                            </div>
+
+                            <div class="phone-number-box email-box">
+                                <a href="#">
+                                    <p class="mb-0">
+                                        <span><i class="fa fa-envelope mr-1" aria-hidden="true"></i></span>info@pink7.in
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 text-right">
+                        <div class="right-btn">
+                            <div class="common-btn">
+                                <a href="login.php" class="btn">Deepak Singh</a>
+                                <a href="#" class="btn">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="menu-section navbar navbar-expand-md">
+            <div class="container">
+                <div class="col-12 p-0">
+                    <nav class="navbar navbar-expand-lg navbar-light header-section p-0 m-0">
+                        <div class="logo-box">
+                            <a href="index.php"><img class="w-100" src="img/pink-logo.png" /></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" id="menu-button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="menu-box">
+                                <ul class="p-0 m-0 menu-list">
+                                    <li class="nav-item">
+                                        <a href="index.php">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about.php">about </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about-two.php">products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="about-two.php">services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="pricing.php">pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.php">contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <section class="mobile-view">
+            <div class="wapper-box">
+                <div class="overlay" id="menu-overlay"></div>
+                <div class="sidebar-menu">
+                    <div class="close-btn">
+                        <div class="close" id="remove-menu"></div>
+                    </div>
+                    <div class="menu-box-scroll">
+                        <div class="menu-box">
+                            <ul class="p-0 m-0 menu-list">
+                                <li class="nav-item">
+                                    <a href="index.php">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about.php">about </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about-two">products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="about-two">services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pricing.php">pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.php">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="merchant">
+            <div class="container">
+                <div class="board">
+                    <h2>Deepak Singh Dashboard</h2>
+                    <p class="text-white">
+                        <i class="fa fa-phone mr-1 text-white" aria-hidden="true"></i> Phone: +91-8287308878 &nbsp <i class="fa fa-envelope-o text-white mr-1" aria-hidden="true"></i> Email:
+                        <a href="#" class="__cf_email__ text-white">deepak.singh@trustcradle.org</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section common-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="tab-section">
+                            <ul class="nav tab-section" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link active" id="home-tab" data-toggle="tab" data-target="#Dashboard" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                        <span><img src="img/dashbord.png" /></span> Dashboard
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="profile-tab" data-toggle="tab" data-target="#Admin" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                        <span><img src="img/admin-info.png" /></span>Admin Info
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Comapny" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/Company-info.png" /></span> Comapny Info
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Subscription" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/Company-info.png" /></span> Subscription Info
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Social" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/social-media.png" /></span> Social Media Pages
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Sync" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/sycn.png" /></span> WhasApp Sync Contacts
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Upcoming" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/upcoming-event.png" /></span> Upcoming Events
+                                    </div>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Schedule" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/delivered.png" /></span> Schedule
+                                    </div>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <div class="nav-link" id="contact-tab" data-toggle="tab" data-target="#Delivered" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                                        <span><img src="img/delivered.png" /></span> Delivered
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="Dashboard">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile Information on Pink7.in services</h2>
+                                            <p class="text">
+                                                Personal as well as Organisational details along with all version Logos will be saved under this section. These information is useful while brodcasting your message on different plateform.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 mb-5 mb-md-0">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="Upcoming Events common-content">
+                                            <h2 class="heading">Upcoming Events</h2>
+                                        </div>
+                                        <div class="event-section mb-5">
+                                            <div class="owl-carousel owl-theme feature-carousel" id="Poster">
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/diwali.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Diwali</h3>
+                                                                <h3>24-10-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/Holi.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Holi</h3>
+                                                                <h3>08-03-2023</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/happy-dussehra-date-timing270x180.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Dussehra</h3>
+                                                                <h3>05-10-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/Ganesh.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Ganesh Chaturthi</h3>
+                                                                <h3>31-08-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/Rathyatra.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Jagannath Rath Yatra</h3>
+                                                                <h3>01-07-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/Rath-yatra.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Jagannath Rath Yatra Ashadhi</h3>
+                                                                <h3>01-07-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/wg_ashadhi_ekadashi_02.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Ashadhi Ekadashi</h3>
+                                                                <h3>10-07-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#">
+                                                    <div class="main-item">
+                                                        <div class="item">
+                                                            <div class="item-image">
+                                                                <img src="img/event-img/Guru-Purnima.jpg" />
+                                                            </div>
+                                                            <div class="item-body">
+                                                                <h3>Guru Purnima</h3>
+                                                                <h3>13-07-2022</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="contacts-list mt-md-0">
+                                            <div class="card mb-5">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-md-5 col-sm-5 col-lg-5 col-xl-5 col-12">
+                                                            <h5 class="text">Upcoming Events</h5>
+                                                        </div>
+                                                        <div class="col-md-7 col-sm-7 col-lg-7 col-xl-7 col-12">
+                                                            <div class="form mb-5">
+                                                                <i class="fa fa-search"></i>
+                                                                <input type="text" class="form-control form-input" placeholder="Search by date, month, festival" />
+                                                                <span class="left-pan">
+                                                                    <i class="fas fa-sliders-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <table class="table table-striped text-center table-responsive-md ">
+                                                                <thead>
+                                                                    <tr class="status">
+                                                                        <th scope="col">Image</th>
+                                                                        <th scope="col">Festival Name</th>
+                                                                        <th scope="col">Scheduled on</th>
+                                                                        <th scope="col">Created on</th>
+                                                                        <th scope="col">Status</th>
+                                                                        <!--<th scope="col">Edit</th>-->
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><img src="https://pink7.thedigitalkranti.com/uploads/schedule-media/user-64/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg" with="50px" height="50px" /></td>
+                                                                        <td>Akshaya Vrat</td>
+                                                                        <td>2022-06-10</td>
+                                                                        <td>2022-06-10 13:05:43</td>
+                                                                        <td>
+                                                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                                                <span class="text-dark">Processed</span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container text-center mt-5">
+                                                        <div class="row">
+                                                            <div class="Favourite">
+                                                                <h3 class="text">User Management</h3>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-md-7 py-1">
+                                                                        <div class="card">
+                                                                            <div class="card-body graph">
+                                                                                <h5>1028 <i class="fa-solid fa-caret-up"></i></h5>
+                                                                                <p>Your brand has reached to people till date</p>
+                                                                                <img class="w-100" src="img/left.jpg" />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5 graph py-1">
+                                                                        <img class="w-100" src="img/right.jpg" />
+                                                                        <p>Reach on Social Media</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Admin">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="top-heading">Admin Profile</h5>
+                                                <p>These details is secured and will not be visible to anyone outside Pink7.in. <span class="text-primary">Read more</span></p>
+                                                <form action="https://pink7.thedigitalkranti.com/user/dashboard" class="form-horizontal" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+                                                    <div class="row">
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Name:</label>
+                                                            <input type="text" name="customer_name" class="form-control" value="Deepak Singh" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Email:</label>
+                                                            <input type="text" name="customer_email" class="form-control" value="deepak.singh@trustcradle.org" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Phone:</label>
+                                                            <input type="number" name="customer_mobile" class="form-control" readonly="" value="8287308878" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Birthday:</label>
+                                                            <input type="date" name="customer_dob" class="form-control" value="1978-05-11" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Anniversary:</label>
+                                                            <input type="date" name="customer_anniversary" class="form-control" value="2006-06-23" />
+                                                        </div>
+
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Gender:</label>
+                                                            <input type="radio" value="0" checked="" name="customer_gender" /> Male &nbsp; &nbsp; <input type="radio" value="1" name="customer_gender" /> Female
+                                                        </div>
+
+                                                        <div class="col-md-12 control">
+                                                            <div class="row">
+                                                                <label for="">&nbsp; &nbsp; Photo: &nbsp;</label>
+                                                                <input type="file" name="customer_image" class="choose-image" value="choose image" />
+                                                                <img src="https://pink7.thedigitalkranti.com/uploads/customer/Deepak_Profile_Photo.jpg" alt="Avatar" class="avatar" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="update ml-auto px-4">
+                                                            <div class="common-btn">
+                                                                <a href="#" class="btn">Update</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Comapny">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="top-heading">Organisation Details</h5>
+                                                <p>Some info may be visible to other people using pink7 service. <span class="text-primary">Learn more</span></p>
+                                                <form action="https://pink7.thedigitalkranti.com/user/companyinfo" class="form-horizontal" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+                                                    <div class="row">
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Org Name:</label>
+                                                            <input type="text" name="orgname" class="form-control" value="Trust Cradle" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">Address:</label>
+                                                            <input type="text" name="address" class="form-control" value="H11A, Middle Circle, Connaught Place, Delhi - 110 001" />
+                                                        </div>
+                                                        <div class="col-md-12 control">
+                                                            <label for="">About org:</label>
+                                                            <textarea class="form-control" placeholder="Enter Message" rows="4" name="about_org">NA</textarea>
+                                                        </div>
+                                                        <div class="col-md-12 pl-0 control">
+                                                            <div class="col-md-2">
+                                                                <label for="">Org Logo:</label>
+                                                            </div>
+                                                            <div class="col-md-12 default mt-3">
+                                                                <div class="row">
+                                                                    <div class="col-md-4">
+                                                                        <div class="org text-center">
+                                                                            <div class="circle">
+                                                                                <input type="file" multiple="" name="customer_logo1" data-max_length="10" class="upload__inputfile" />
+                                                                                <div class="img-box">
+                                                                                    <img class="w-100 h-100" src="img/Discuss-1_Black (1).png" />
+                                                                                </div>
+                                                                            </div>
+                                                                            <p class="mt-3">Default</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="org text-center">
+                                                                            <div class="circle">
+                                                                                <input type="file" multiple="" name="customer_logo1" data-max_length="10" class="upload__inputfile" />
+                                                                                <div class="img-box">
+                                                                                    <img class="w-100 h-100" src="img/Discuss-1_Black (1).png" />
+                                                                                </div>
+                                                                            </div>
+                                                                            <p class="mt-3">Reverse</p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-4">
+                                                                        <div class="org text-center">
+                                                                            <div class="circle">
+                                                                                <input type="file" multiple="" name="customer_logo1" data-max_length="10" class="upload__inputfile" />
+                                                                                <div class="img-box">
+                                                                                    <img class="w-100 h-100" src="img/Discuss-1_Black (1).png" />
+                                                                                </div>
+                                                                            </div>
+                                                                            <p class="mt-3">Monotone</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 py-4">
+                                        <div class="text-right">
+                                            <div class="right-btn">
+                                                <div class="common-btn">
+                                                    <a href="#" class="btn">Update </a>
+                                                    <a href="#" class="btn mr-0">Save</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Subscription">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                                        <div class="contacts-list">
+                                            <div class="card mb-5">
+                                                <div class="card-body">
+                                                    <div id="example1_wrapper" class="dataTables_wrapper no-footer">
+                                                        <div class="inner-box common-d-flex">
+                                                            <div class="dataTables_length" id="example1_length">
+                                                                <label class="common-d-flex">
+                                                                    <span>Show</span>
+                                                                    <span class="mx-2">
+                                                                        <select name="example1_length" aria-controls="example1" class="form-control">
+                                                                            <option value="10">10</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                        </select>
+                                                                    </span>
+                                                                    <span>entries</span>
+                                                                </label>
+                                                            </div>
+                                                            <div id="example1_filter" class="dataTables_filter">
+                                                                <label class="common-d-flex">
+                                                                    <span class="mr-2">Search:</span>
+                                                                    <span>
+                                                                        <input type="search" class="form-control" placeholder="" aria-controls="example1" />
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <table id="example1" border="0" class="table table-responsive-md  table-striped text-center dataTable no-footer" role="grid" aria-describedby="example1_info">
+                                                            <thead>
+                                                                <tr class="status" role="row">
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting sorting_asc"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Transection Id: activate to sort column descending"
+                                                                        style="width: 89.8906px;"
+                                                                        aria-sort="ascending"
+                                                                    >
+                                                                        Transection Id
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Plan Name: activate to sort column ascending"
+                                                                        style="width: 55.3906px;"
+                                                                    >
+                                                                        Plan Name
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="User Name: activate to sort column ascending"
+                                                                        style="width: 56.0156px;"
+                                                                    >
+                                                                        User Name
+                                                                    </th>
+                                                                    <th scope="col" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 57px;">
+                                                                        Amount
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership From : activate to sort column ascending"
+                                                                        style="width: 105.078px;"
+                                                                    >
+                                                                        Membership From
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership To: activate to sort column ascending"
+                                                                        style="width: 98.5938px;"
+                                                                    >
+                                                                        Membership To
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Description: activate to sort column ascending"
+                                                                        style="width: 84.0312px;"
+                                                                    >
+                                                                        Description
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="odd">
+                                                                    <td valign="top" colspan="7" class="dataTables_empty">No data available in table</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="common-d-flex">
+                                                            <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div>
+                                                            <!-- <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
+                                                                <a class="paginate_button previous disabled" aria-controls="example1" data-dt-idx="0" tabindex="-1" id="example1_previous">Previous</a><span></span>
+                                                                <a class="paginate_button next disabled" aria-controls="example1" data-dt-idx="1" tabindex="-1" id="example1_next">Next</a>
+                                                            </div> -->
+                                                            <div class="common-btn">
+                                                                <a href="#" class="btn">Previous </a>
+                                                                <a href="#" class="btn">Next</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Social">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="social-media-account-box">
+                                            <h2 class="top-heading">Social Media Account Connect</h2>
+                                            <p class="text">Some info be visible to other people using pink7 service. <a href="#">Learn more</a></p>
+                                            <div class="details-box">
+                                                <ul class="p-0 m-0">
+                                                    <li class="item">
+                                                        <div class="facebook-box common-flex first-box">
+                                                            <span class="icon-box">
+                                                                <img src="img/facebook.png" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">Facebook Page</p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <span class="icon-box">
+                                                                <img class="rounded-pill" src="img/user.jpg" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">Connected as <a href="#">jamesvineeth</a></p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Disconnect</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="facebook-box common-flex first-box">
+                                                            <span class="icon-box">
+                                                                <img src="img/twitter-img.png" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">Twitter Profile</p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <span class="icon-box">
+                                                                <img class="rounded-pill" src="img/user.jpg" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">Connected as <a href="#">jamesvineeth</a></p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Disconnect</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="facebook-box common-flex first-box">
+                                                            <span class="icon-box">
+                                                                <img src="img/instagram-img.png" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">Instagram Profile</p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex" style="width: 32%;">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Connect</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Disconnect</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="facebook-box common-flex first-box">
+                                                            <span class="icon-box">
+                                                                <img src="img/whatsapp.png" />
+                                                            </span>
+                                                            <span>
+                                                                <p class="mb-0">WhatsApp Profile</p>
+                                                            </span>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex" style="width: 32%;">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Connect</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="facebook-box common-flex">
+                                                            <div class="disconnect-btn">
+                                                                <a href="#" class="btn rounded-pill">Disconnect</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Sync">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="file-btn">
+                                            <div class="drag mt-4 common-btn common-d-flex">
+                                                <label for="files" class="btn Upload"><i class="far fa-address-book"></i> Upload files here</label>
+                                                <a href="#" class="btn Download"><i class="fa fa-download mr-1" aria-hidden="true"></i> Download CVV</a>
+                                            </div>
+                                            <div class="drag mt-2 common-btn">
+                                                <a href="#" class="btn Upload">Submit</a>
+                                            </div>
+                                            <input type="file" id="files" name="file" style="visibility: hidden;" value="choose image" />
+                                            <div class="text-center mt-3">
+                                                <p>
+                                                    Drag and drop or choose a file to upload your contacts list.<br />
+                                                    All csv, xlsx, docx and pdf types are supported.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                                        <div class="contacts-list">
+                                            <div class="card mb-5">
+                                                <div class="card-body">
+                                                    <div id="example1_wrapper" class="dataTables_wrapper no-footer">
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-sm-5 col-lg-5 col-xl-5 col-12">
+                                                                <h3 class="text">Contacts List added</h3>
+                                                            </div>
+                                                            <div class="col-md-7 col-sm-7 col-lg-7 col-xl-7 col-12">
+                                                                <div class="form text-right mb-5">
+                                                                    <div class="common-btn">
+                                                                        <a href="#" class="btn"><i class="fa fa-plus"></i> Add New Contact </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="inner-box common-d-flex">
+                                                            <div class="dataTables_length" id="example1_length">
+                                                                <label class="common-d-flex">
+                                                                    <span>Show</span>
+                                                                    <span class="mx-2">
+                                                                        <select name="example1_length" aria-controls="example1" class="form-control">
+                                                                            <option value="10">10</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                        </select>
+                                                                    </span>
+                                                                    <span>entries</span>
+                                                                </label>
+                                                            </div>
+                                                            <div id="example1_filter" class="dataTables_filter">
+                                                                <label class="common-d-flex">
+                                                                    <span class="mr-2">Search:</span>
+                                                                    <span>
+                                                                        <input type="search" class="form-control" placeholder="" aria-controls="example1" />
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <table id="example1" border="0" class="table table-responsive-md  table-striped text-center dataTable no-footer" role="grid" aria-describedby="example1_info">
+                                                            <thead>
+                                                                <tr class="status" role="row">
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting sorting_asc"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Transection Id: activate to sort column descending"
+                                                                        style="width: 89.8906px;"
+                                                                        aria-sort="ascending"
+                                                                    >
+                                                                        Name
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Plan Name: activate to sort column ascending"
+                                                                        style="width: 55.3906px;"
+                                                                    >
+                                                                        Email Id
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="User Name: activate to sort column ascending"
+                                                                        style="width: 56.0156px;"
+                                                                    >
+                                                                        Contact Number
+                                                                    </th>
+                                                                    <th scope="col" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 57px;">
+                                                                        Favorite
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership From : activate to sort column ascending"
+                                                                        style="width: 105.078px;"
+                                                                    >
+                                                                        Whats Up Sync
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership To: activate to sort column ascending"
+                                                                        style="width: 98.5938px;"
+                                                                    >
+                                                                        Action
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="odd">
+                                                                    <td valign="top" colspan="7" class="dataTables_empty">No data available in table</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="common-d-flex">
+                                                            <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div>
+                                                            <!-- <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
+                                                                    <a class="paginate_button previous disabled" aria-controls="example1" data-dt-idx="0" tabindex="-1" id="example1_previous">Previous</a><span></span>
+                                                                    <a class="paginate_button next disabled" aria-controls="example1" data-dt-idx="1" tabindex="-1" id="example1_next">Next</a>
+                                                                </div> -->
+                                                            <div class="common-btn">
+                                                                <a href="#" class="btn">Previous </a>
+                                                                <a href="#" class="btn">Next</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="Upcoming">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="top-heading">Upcoming Events</h5>
+                                                <p>Some info may be visible to other people using pink7 service. <span class="text-primary">Learn more</span></p>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/diwali.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/6">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Diwali</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/Holi.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/7">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Holi</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/happy-dussehra-date-timing270x180.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/8">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Dussehra</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/Ganesh.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/9">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Ganesh Chaturthi</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/Rathyatra.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/10">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Jagannath Rath Yatra</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/Rath-yatra.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/12">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Jagannath Rath Yatra Ashadhi</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/wg_ashadhi_ekadashi_02.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/15">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Ashadhi Ekadashi</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Modal -->
+                                                    <div class="col-md-3">
+                                                        <div class="card event">
+                                                            <img src="https://pink7.thedigitalkranti.com//uploads/upcomming_events_image/Guru-Purnima.jpg" />
+                                                            <a href="https://pink7.thedigitalkranti.com/user/upcomingimage/16">
+                                                                <div class="card-body"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Guru Purnima</div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade show" id="Schedule">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                                        <div class="contacts-list">
+                                            <div class="card mb-5">
+                                                <div class="card-body">
+                                                    <h5 class="top-heading">Social Media Account Connect</h5>
+                                                    <p>Some info may be visible to other people using pink7 service. <span class="text-primary">Learn more</span></p>
+                                                    <div id="example1_wrapper" class="dataTables_wrapper no-footer">
+                                                        <div class="inner-box common-d-flex">
+                                                            <div class="dataTables_length" id="example1_length">
+                                                                <label class="common-d-flex">
+                                                                    <span>Show</span>
+                                                                    <span class="mx-2">
+                                                                        <select name="example1_length" aria-controls="example1" class="form-control">
+                                                                            <option value="10">10</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                        </select>
+                                                                    </span>
+                                                                    <span>entries</span>
+                                                                </label>
+                                                            </div>
+                                                            <div id="example1_filter" class="dataTables_filter">
+                                                                <label class="common-d-flex">
+                                                                    <span class="mr-2">Search:</span>
+                                                                    <span>
+                                                                        <input type="search" class="form-control" placeholder="" aria-controls="example1" />
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <table id="example1" border="0" class="table table-responsive-md  table-striped text-center dataTable no-footer" role="grid" aria-describedby="example1_info">
+                                                            <thead>
+                                                                <tr class="status" role="row">
+                                                                    <th
+                                                                        
+                                                                    >
+                                                                        Image
+                                                                    </th>
+                                                                    <th
+                                                                       
+                                                                    >
+                                                                        Social Media
+                                                                    </th>
+                                                                    <th
+                                                                    >
+                                                                        Festival Name
+                                                                    </th>
+                                                                    <th scope="col" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 57px;">
+                                                                        Scheduled on
+                                                                    </th>
+                                                                    <th
+                                                                        
+                                                                    >
+                                                                        Created on
+                                                                    </th>
+                                                                    <th
+                                                                        
+                                                                    >
+                                                                        Status
+                                                                    </th>
+                                                                    <th
+                                                                       
+                                                                    >
+                                                                       Action
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                
+                                                                    <tr class="odd">
+                                                                        <td class="sorting_1"> <img class="thumbnail zoom" src="https://pink7.thedigitalkranti.com/uploads/schedule-media/user-64/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg?v=2.1655266440" width="100px" height="50px" alt="image">  </td>
+                                                                        
+                                                                        <td>
+                                                                           
+                                                                                                                    
+                                                                           
+                                                                                                                    
+                                                                            
+                                                                                                                   
+                                                                           
+                                                                             
+                                                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                                               <span class="text-dark">facebook -C</span>
+                                                                            </div>
+                                                                                                                </td>
+                                                                       
+                                                                        <td>Diwali</td>
+                                                                        <td>01-01-1970</td>
+                                                                        <td>01-01-1970</td>
+                                                                        <td>
+                                                                                                                     
+                                                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                                               <span class="text-dark">Processed</span>
+                                                                            </div>
+                                                                                                                </td>
+                                                                        
+                                                                        <td class="action-btn">
+                                                                            <a style="margin-top: 5px;" href="https://pink7.thedigitalkranti.com/single/scheduleedit/61" class="btn btn-warning border-0 text-white btn-xs mr5">
+                                                                            <i class="fa fa-edit"></i>
+                                                                            </a>
+                                                                            <a style="margin-top: 5px;" href="https://pink7.thedigitalkranti.com/user/scheduldelete/61" onclick="return confirm('are you sure to delete?')" class="btn btn-danger border-0 text-white btn-xs"><i class="fa fa-trash"></i></a>
+                                                                         </td>
+                                                                      
+                                                                       
+                                                                     </tr>
+                                                               
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="common-d-flex">
+                                                            <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div>
+                                                            <!-- <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
+                                                                <a class="paginate_button previous disabled" aria-controls="example1" data-dt-idx="0" tabindex="-1" id="example1_previous">Previous</a><span></span>
+                                                                <a class="paginate_button next disabled" aria-controls="example1" data-dt-idx="1" tabindex="-1" id="example1_next">Next</a>
+                                                            </div> -->
+                                                            <div class="common-btn">
+                                                                <a href="#" class="btn">Previous </a>
+                                                                <a href="#" class="btn">Next</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="Delivered">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="your-profile-box">
+                                            <h2 class="top-heading">Your profile info in pink7 services</h2>
+                                            <p class="text">
+                                                Personal info and Option to manage it. You can make some of this info, like your contct details, visible to other so they can your easly. you also see a summary of your profile.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="img-box">
+                                            <img class="w-100" src="img/img.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-12">
+                                        <div class="contacts-list">
+                                            <div class="card mb-5">
+                                                <div class="card-body">
+                                                    <h5 class="top-heading">Social Media Account Connect</h5>
+                                                    <p>Some info may be visible to other people using pink7 service. <span class="text-primary">Learn more</span></p>
+                                                    <div id="example1_wrapper" class="dataTables_wrapper no-footer">
+                                                        <div class="inner-box common-d-flex">
+                                                            <div class="dataTables_length" id="example1_length">
+                                                                <label class="common-d-flex">
+                                                                    <span>Show</span>
+                                                                    <span class="mx-2">
+                                                                        <select name="example1_length" aria-controls="example1" class="form-control">
+                                                                            <option value="10">10</option>
+                                                                            <option value="25">25</option>
+                                                                            <option value="50">50</option>
+                                                                            <option value="100">100</option>
+                                                                        </select>
+                                                                    </span>
+                                                                    <span>entries</span>
+                                                                </label>
+                                                            </div>
+                                                            <div id="example1_filter" class="dataTables_filter">
+                                                                <label class="common-d-flex">
+                                                                    <span class="mr-2">Search:</span>
+                                                                    <span>
+                                                                        <input type="search" class="form-control" placeholder="" aria-controls="example1" />
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <table id="example1" border="0" class="table table-responsive-md  table-striped text-center dataTable no-footer" role="grid" aria-describedby="example1_info">
+                                                            <thead>
+                                                                <tr class="status" role="row">
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting sorting_asc"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Transection Id: activate to sort column descending"
+                                                                        style="width: 89.8906px;"
+                                                                        aria-sort="ascending"
+                                                                    >
+                                                                        Image
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Plan Name: activate to sort column ascending"
+                                                                        style="width: 55.3906px;"
+                                                                    >
+                                                                        Social Media
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="User Name: activate to sort column ascending"
+                                                                        style="width: 56.0156px;"
+                                                                    >
+                                                                        Festival Name
+                                                                    </th>
+                                                                    <th scope="col" class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Amount: activate to sort column ascending" style="width: 57px;">
+                                                                        Amount
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership From : activate to sort column ascending"
+                                                                        style="width: 105.078px;"
+                                                                    >
+                                                                        Scheduled on
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Membership To: activate to sort column ascending"
+                                                                        style="width: 98.5938px;"
+                                                                    >
+                                                                        Created on
+                                                                    </th>
+                                                                    <th
+                                                                        scope="col"
+                                                                        class="sorting"
+                                                                        tabindex="0"
+                                                                        aria-controls="example1"
+                                                                        rowspan="1"
+                                                                        colspan="1"
+                                                                        aria-label="Description: activate to sort column ascending"
+                                                                        style="width: 84.0312px;"
+                                                                    >
+                                                                       Status
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="odd">
+                                                                    <td valign="top" colspan="7" class="dataTables_empty">No data available in table</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <div class="common-d-flex">
+                                                            <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div>
+                                                            <!-- <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
+                                                                <a class="paginate_button previous disabled" aria-controls="example1" data-dt-idx="0" tabindex="-1" id="example1_previous">Previous</a><span></span>
+                                                                <a class="paginate_button next disabled" aria-controls="example1" data-dt-idx="1" tabindex="-1" id="example1_next">Next</a>
+                                                            </div> -->
+                                                            <div class="common-btn">
+                                                                <a href="#" class="btn">Previous </a>
+                                                                <a href="#" class="btn">Next</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <?php  include('footer.php') ;?>
+
+        <!-- ----------script-file----------------- -->
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
